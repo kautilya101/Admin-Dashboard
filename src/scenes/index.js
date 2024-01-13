@@ -1,0 +1,11 @@
+export { default as Dashboard } from './Dashboard/Dashboard';
+export {default as Team} from './Team/Team';
+export {default as Invoices} from './Invoices/Invoices';
+export {default as Contacts} from './Contacts/Contacts';
+export {default as Form } from './Form/Form';
+export {default as Bar} from './Bar/Bar';
+export {default as Line} from './Line/Line';
+export {default as Pie} from './Pie/Pie';
+export { default as FAQ } from './FAQ/Faq';
+export { default as Geography } from './Geography/Geography';
+export {default as Calendar} from './Calendar/Calendar';
