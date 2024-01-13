@@ -80,15 +80,15 @@ const Sidebar = () => {
                                 alt='profile-user' 
                                 width="100px" 
                                 height="100px" 
-                                src={`../../assets/user.png`} 
+                                src='https://images.unsplash.com/photo-1595152772835-219674b2a8a6?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                                 style={{ cursor: "pointer", borderRadius: "50%"}} 
 
                                 />
                             </Box>
 
                             <Box textAlign="center">
-                                <Typography variant='h2' color={colors.grey[100]} fontWeight="bold" sx={{ m: "10px 0 0 0"}} >Kautilya</Typography>
-                                <Typography variant='h5' color={colors.greenAccent[400]}>Software Engineer</Typography>
+                                <Typography variant='h2' color={colors.grey[100]} fontWeight="bold" sx={{ m: "10px 0 0 0"}} >John Doe</Typography>
+                                <Typography variant='h5' color={colors.greenAccent[400]}>Sr Admin</Typography>
                             </Box>
                         </Box>
                     )}

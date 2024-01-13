@@ -5,7 +5,8 @@ import {Route, Routes} from 'react-router-dom';
 import Topbar from './scenes/global/Topbar';
 import { Bar, Geography,Calendar,Form, Contacts, Dashboard, FAQ, Invoices, Line, Pie, Team } from './scenes/index';
 import Sidebar from './scenes/global/Sidebar';
-import BarChart from './components/BarChart';
+import StickyBox from 'react-sticky-box';
+
 
 
 
@@ -17,7 +18,9 @@ function App() {
     <ThemeProvider theme={theme}>
     <CssBaseline />
     <div className="app">  
+    {/* <StickyBox> */}
       <Sidebar/>
+    {/* </StickyBox> */}
       <main className='content'>
         <Topbar/>
         <Routes>
